@@ -1,0 +1,487 @@
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 400;
+  src: url("././_assets/fonts/eot/iranyekanwebregularfanum.eot");
+  src: url("././_assets/fonts/eot/iranyekanwebregularfanum.eot")
+      format("embedded-opentype"),
+    url("././_assets/fonts/woff/iranyekanwebregularfanum.woff") format("woff"),
+    url("././_assets/fonts/ttf/iranyekanwebregularfanum.ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 700;
+  src: url("././_assets/fonts/eot/iranyekanwebboldfanum.eot");
+  src: url("././_assets/fonts/eot/iranyekanwebboldfanum.eot")
+      format("embedded-opentype"),
+    url("././_assets/fonts/woff/iranyekanwebboldfanum.woff") format("woff"),
+    url("././_assets/fonts/ttf/iranyekanwebboldfanum.ttf") format("truetype");
+}
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 800;
+  src: url("././_assets/fonts/eot/iranyekanwebextraboldfanum.eot");
+  src: url("././_assets/fonts/eot/iranyekanwebextraboldfanum.eot")
+      format("embedded-opentype"),
+    url("././_assets/fonts/woff/iranyekanwebextraboldfanum.woff")
+      format("woff"),
+    url("././_assets/fonts/ttf/iranyekanwebextraboldfanum.ttf")
+      format("truetype");
+}
+
+.range-picker-jalal-fa-custom-style-wrapper {
+  font-family: IranYekan;
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #cccc;
+  border-radius: 10px;
+  padding: 2rem;
+}
+.range-picker-jalal-fa-custom-style {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.range-picker-jalal-fa-custom-style-desc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+.path{
+  color: #0d7c1c;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  direction: rtl;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month {
+  width: 28rem;
+  text-align: center;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header
+  .month-year-header,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header
+  .month-year-header,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header
+  .month-year-header,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header
+  .month-year-header {
+  flex: 1;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header
+  .next-btns,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header
+  .prv-btns,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header
+  .next-btns,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header
+  .prv-btns,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header
+  .next-btns,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-header
+  .prv-btns,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header
+  .next-btns,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-header
+  .prv-btns {
+  display: flex;
+  gap: 0.5rem;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day-name,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day-name,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day-name,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day-name {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day {
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day:hover,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day:hover,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day:hover,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day:hover {
+  color: #fff;
+  background-color: #207f17;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day.isSelected,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day.isSelected,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day.isSelected,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day.isSelected {
+  background-color: #207f17;
+  color: white;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day.isInRange,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day.isInRange,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day.isInRange,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day.isInRange {
+  background-color: rgba(23, 127, 23, 0.188);
+  border: 1px solid #0d7c1c;
+  box-sizing: border-box;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day.disabled-day,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day.disabled-day,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .day.disabled-day,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .day.disabled-day {
+  color: #ccc;
+  pointer-events: none;
+  opacity: 0.5;
+}
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .range-info,
+.range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .range-info,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .current-month
+  .calendar-grid
+  .range-info,
+.range-picker-jalal-fa-custom-style-wrapper
+  .react-jalali-range-picker-wrapper
+  .next-month
+  .calendar-grid
+  .range-info {
+  margin-top: 20px;
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+@media only screen and (max-width: 500px) {
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .next-month {
+    display: none;
+  }
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .current-month
+    .calendar-header
+    .next-btns {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .next-month {
+    display: none;
+  }
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .current-month
+    .calendar-header
+    .next-btns {
+    display: flex;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .next-month {
+    display: block;
+  }
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .current-month
+    .calendar-header
+    .next-btns {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .next-month {
+    display: block;
+  }
+  .range-picker-jalal-fa-custom-style-wrapper
+    .react-jalali-range-picker-wrapper
+    .current-month
+    .calendar-header
+    .next-btns {
+    display: none;
+  }
+}
